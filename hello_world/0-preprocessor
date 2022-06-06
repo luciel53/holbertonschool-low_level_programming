@@ -1,2 +1,2 @@
 #!/bin/bash
-echo export CFILE=0-main.c > c.c
+echo main.c > c.c
