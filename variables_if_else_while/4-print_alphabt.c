@@ -10,8 +10,8 @@ char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
-if (ch == 'e')
-{ch++;}
+if ((ch == 'd') || (ch == 'p'))
+{ch++; }
 }
 return (0);
 }
