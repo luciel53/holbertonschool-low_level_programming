@@ -1,8 +1,4 @@
 #include <stdio.h>
-#include <bits/libc-header-start.h>
-#define PRINTSIZE(Type) printf("sizeof " #Type " is %zu\n", sizeof(Type))
-PRINTSIZE(int);
-PRINTSIZE(long);
 /**
 * main - Entry point
 *
