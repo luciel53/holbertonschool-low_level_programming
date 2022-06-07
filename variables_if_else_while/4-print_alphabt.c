@@ -13,5 +13,8 @@ putchar(ch);
 if ((ch == 'd') || (ch == 'p'))
 {ch++; }
 }
+{
+putchar('\n');
+}
 return (0);
 }
