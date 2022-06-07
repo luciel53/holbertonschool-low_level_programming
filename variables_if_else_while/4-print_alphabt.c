@@ -10,6 +10,9 @@ char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
+if (ch = 'e')
+ch++;
 }
+
 return (0);
 }
