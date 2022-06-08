@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-int i;
-for (i = '0' ; i <= '9' ; i++)
+int num;
+for (num = '0' ; num <= '9' ; num++)
 {
-putchar((i % 10) + 'i');
-if (i == 9)
+putchar((num % 10) + 'num');
+if (num == 9)
 continue;
 putchar(',');
 }
