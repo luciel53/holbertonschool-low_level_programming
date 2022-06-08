@@ -1,13 +1,13 @@
 #include "main.h"
 /**
 * main - Entry point
-* int _islower(int c): lower case
+* _islower - the _islower function
 * Return: Always 0
 */
 int main(void)
 {
-int r;
 int _islower(int c);
+int r;
 {
 r = _islower('H');
 _putchar(r + '0');
