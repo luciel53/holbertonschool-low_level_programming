@@ -10,10 +10,10 @@ int i;
 for (i = '0' ; i <= '9' ; i++)
 {
 putchar((i % 10) + 'i');
-if (i == 0)
+if (i == 9)
 continue;
 putchar(',');
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
