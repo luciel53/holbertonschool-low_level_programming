@@ -7,14 +7,16 @@
 int main(void)
 {
 int i;
-int x;
 for (i = '0' ; i <= 9 ; i++)
 {
 putchar(i);
 }
-for (x = '0' ; x <= 9 ; x++)
+for (i = '0' ; i <= 9 ; i++)
 {
-putchar(x);
+putchar(i);
+}
+{
+putchar(i);
 }
 return (0);
 }
