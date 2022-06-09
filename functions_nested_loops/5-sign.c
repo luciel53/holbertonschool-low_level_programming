@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* int print_sign(int n)
-*
+* print_sign - function
+* @n: operator
 * Return: 0 if n = 0 and 1 if n < or > 0
 */
 int print_sign(int n)
