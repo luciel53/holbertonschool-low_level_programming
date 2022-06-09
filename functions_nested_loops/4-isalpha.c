@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* int _isalpha(int c): 'check lower and upper cases'
-*
-* Return: Always 0
+* _isalpha - function test an integer value
+* @c: operator
+* Return: Always 1
 */
 int _isalpha(int c)
 {
