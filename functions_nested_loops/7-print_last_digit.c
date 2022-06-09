@@ -1,11 +1,13 @@
 #include "main.h"
 /**
-* int print_last_digit(int n)
-*
+* print_last_digit - function
+* @n - operator
 * Return n
 */
 int print_last_digit(int n)
 {
-while (n >= 0)
-	return (n % 10);
+if (n % 10 <= 10)
+{
+	return (n);
+}
 }
