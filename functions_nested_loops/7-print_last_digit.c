@@ -6,9 +6,6 @@
 */
 int print_last_digit(int n)
 {
-while (n >= 10)
-{
-	n = n / 10;
-}
-return (n);
+while (n >= 0)
+	return (n % 10);
 }

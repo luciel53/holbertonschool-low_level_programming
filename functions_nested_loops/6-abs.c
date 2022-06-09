@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* int _abs(int)
-*
+* _abs - funtion
+* @n: operator
 * Return: Always 0
 */
 int _abs(int n)
