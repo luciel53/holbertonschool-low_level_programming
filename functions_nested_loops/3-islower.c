@@ -1,21 +1,18 @@
 #include "main.h"
 /**
-* main - Entry point
 * _islower - the _islower function
+* int r
 * Return: Always 0
 */
-int main(void)
+int _islower(int c)
 {
-int _islower(int c);
-int r;
-{
-r = _islower('H');
-_putchar(r + '0');
-r = _islower('o');
-_putchar(r + '0');
-r = _islower(108);
-_putchar(r + '0');
+
+c = _islower('H');
+_putchar(c + '0');
+c = _islower('o');
+_putchar(c + '0');
+c = _islower(108);
+_putchar(c + '0');
 _putchar('\n');
-}
 return (0);
 }
