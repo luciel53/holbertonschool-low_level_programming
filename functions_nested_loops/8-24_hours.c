@@ -18,6 +18,7 @@ for (hour = 0 ; hour < 24 ; hour++)
 		_putchar (58);
 		_putchar (min / 10 + '0');
 		_putchar (min % 10 + '0');
+		_putchar ('\n');
 	}
 }
 }
