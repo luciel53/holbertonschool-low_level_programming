@@ -30,7 +30,8 @@ int i;
 		{
 			printf("%d", i);
 		}
-	putchar (' ');
+		if (i < 100)
+		putchar (' ');
 	}
 putchar (10);
 return (0);
