@@ -33,5 +33,5 @@ int i;
 	putchar (' ');
 	}
 putchar (10);
-return (1);
+return (0);
 }
