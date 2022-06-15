@@ -10,7 +10,6 @@ void puts2(char *str)
 {
 int i = 0;
 int counter = 0;
-		
 		while (str[i])
 		{
 			counter++;
