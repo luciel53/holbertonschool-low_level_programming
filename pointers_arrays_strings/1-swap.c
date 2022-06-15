@@ -3,7 +3,8 @@
 
 /**
 * swap_int - function
-*
+* @a: operator
+* @b: operator
 * Return: void
 */
 
