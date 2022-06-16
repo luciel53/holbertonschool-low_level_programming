@@ -17,7 +17,7 @@ int i, j;
 	{
 	;
 	}
-	for (j = 0 ; src[j] != 0 ; j++, i++)
+	for (j = 0 ; src[j] ; j++, i++)
 	{
 		if (n > j)
 		dest[i] = src[j];
