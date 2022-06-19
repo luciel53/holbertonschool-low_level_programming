@@ -3,7 +3,8 @@
 
 /**
 * print_diagsums - function
-*
+* @a: operator
+* @size: operator
 * Return: void
 */
 
