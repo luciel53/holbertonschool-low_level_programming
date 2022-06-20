@@ -2,7 +2,7 @@
 
 /**
 * _puts_recursion - function
-*
+* @s : operator and pointer
 * Return: void
 */
 
