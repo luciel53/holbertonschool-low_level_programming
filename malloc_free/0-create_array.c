@@ -18,11 +18,10 @@ char *str;
 		for (i = 0 ; i < size ; i++)
 		{
 			str[i] = c;
-			return (str);
 		}
 		else
 		{
-			return ('\0');
+			return (NULL);
 		}
 return (str);
 }
