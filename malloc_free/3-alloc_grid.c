@@ -36,8 +36,9 @@ int j;
 				for (; j < height ; j++)
 				{
 					free(a);
-					return (NULL);
 				}
+				free(a);
+				return (NULL);
 			}
 	}
 
