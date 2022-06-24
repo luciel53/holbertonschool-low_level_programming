@@ -13,21 +13,17 @@ int main(int argc, char *argv[])
 {
 int num1 = 0;
 int num2 = 0;
-int result = num1 * num2;
 
 	if (argc == 3)
 	{
-		result += atoi(*argv++);
-		num1 += atoi(argv[1]);
-		num2 += atoi(argv[2]);
-		printf("%d\n", result);
-		putchar (10);
+		num1 = atoi(*argv);
+		num2 = atoi(*argv);
+		printf("%d\n", num1 * num2);
 	}
 	else
 	{
-		printf("Error");
-		putchar (10);
+		printf("Error\n");
 		return (1);
 	}
-	return (0);
+return (0);
 }
