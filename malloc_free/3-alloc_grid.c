@@ -35,7 +35,7 @@ int j;
 			{
 				for (; j >= 0 ; j--)
 				{
-					free(a);
+					free(a[j]);
 				}
 				free(a);
 				return (NULL);
