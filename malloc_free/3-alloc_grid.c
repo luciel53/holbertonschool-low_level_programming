@@ -16,7 +16,7 @@ int **a;
 int i;
 int j;
 
-	if (width == 0 || height == 0)
+	if (width <= 0 || height <= 0)
 		return (NULL);
 
 	a = malloc(sizeof(int *) * height);
@@ -33,7 +33,7 @@ int j;
 
 			if (a[j] == NULL)
 			{
-				for (; j < height ; j++)
+				for (; j >= 0 ; j--)
 				{
 					free(a);
 				}
