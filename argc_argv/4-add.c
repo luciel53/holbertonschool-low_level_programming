@@ -18,7 +18,7 @@ int sum;
 	{
 		for (i = 1 ; i < argc ; i++)
 		{
-			for (j = 0 ; j < argv[i][j] ; j++)
+			for (j = 0 ; argv[i][j] ; j++)
 			{
 				sum = atoi(argv[i]);
 				printf("%d\n", sum);
