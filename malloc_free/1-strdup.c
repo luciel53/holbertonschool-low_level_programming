@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
-* _strdup - function
-*
-* Return: 
+* *_strdup - function
+* @str: operator and pointer
+* Return: s
 */
 
 char *_strdup(char *str)
