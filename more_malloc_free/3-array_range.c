@@ -21,13 +21,13 @@ int size = 0;
 	size = max - min + 1;
 	a = malloc(sizeof(int) * size);
 
-	if (a == NULL)
+	if (!a)
 		return (NULL);
 
 	if (i < 0)
 		return (NULL);
 
-	while (i <= max)
+	while (min <= max)
 	{
 		a[i] = min;
 		i++;
