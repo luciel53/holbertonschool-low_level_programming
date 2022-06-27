@@ -25,8 +25,8 @@ char *s;
 
 	while (i < j)
 	{
-		i++;
 		s[i] = 0;
+		i++;
 	}
 return (s);
 }
