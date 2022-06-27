@@ -17,13 +17,11 @@ int size = 0;
 
 	if (min > max)
 		return (NULL);
-	if (min < 0)
-		return (NULL);
 
 	size = max - min + 1;
 	a = malloc(sizeof(int) * size);
 
-	if (!a)
+	if (a == NULL)
 		return (NULL);
 
 	if (i < 0)
