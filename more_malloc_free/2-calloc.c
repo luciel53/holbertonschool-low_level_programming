@@ -18,7 +18,8 @@ char *s;
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	s = malloc(nmemb * size);
+	j = nmemb * size;
+	s = malloc(j);
 
 	if (s == NULL)
 		return (NULL);
