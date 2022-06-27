@@ -17,7 +17,5 @@ void *p;
 
 		if (!b)
 			exit(98);
-		
-		else
-			return (p);
+		return (p);
 }
