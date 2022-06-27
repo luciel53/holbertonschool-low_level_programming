@@ -18,10 +18,13 @@ int size = 0;
 	if (min > max)
 		return (NULL);
 
-	size = max - min +1;
+	size = max - min + 1;
 	a = malloc(sizeof(int) * size);
 
 	if (!a)
+		return (NULL);
+
+	if (i < 0)
 		return (NULL);
 
 	while (i <= max)
