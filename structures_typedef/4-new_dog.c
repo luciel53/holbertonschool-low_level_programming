@@ -18,10 +18,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	namelen = ownerlen = 0;
 
 	/*copy*/
-	while (name[namelen])
-		namelen++;
-	while (owner[ownerlen])
-		ownerlen++;
+	while (name[namelen++])
+		;
+	while (owner[ownerlen++])
+		;
 
 	/*allocate newdog*/
 	newdog = malloc(sizeof(dog_t));
