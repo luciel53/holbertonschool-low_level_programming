@@ -16,7 +16,7 @@ int i;
 int j = size;
 	for (i = 0 ; i < j ; i++)
 	{
-		if (action != NULL)
+		if (action != NULL || array != NULL)
 		action(array[i]);
 	}
 }
