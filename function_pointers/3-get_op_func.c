@@ -4,7 +4,7 @@
 #include "3-calc.h"
 
 /**
- * @brief Get the op func object
+ * get_op_func - function
  *
  * @param s
  * @return int(*)(int, int)
@@ -20,15 +20,13 @@ int (*get_op_func(char *s))(int, int)
         {"%", op_mod},
         {NULL, NULL}
     };
-    int i = 0;
 
-	if (strcmp(s, ops->op[i] == 0))
+int i = 0;
+	while (i < 5)
 	{
-	while (i <= 4)
-	{
-		get_op_func(s);
+		if (strcmp(s, ops[i].op) == 0)
+			return (ops[i].f);
 		i++;
 	}
-	}
-return (0);
+return (NULL);
 }
