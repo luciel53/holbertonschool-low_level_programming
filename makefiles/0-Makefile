@@ -1,2 +1,3 @@
-all : make -f 0-Makefile
+make -f 0-Makefile
+all :
 	gcc main.c m.h school.c -o school
