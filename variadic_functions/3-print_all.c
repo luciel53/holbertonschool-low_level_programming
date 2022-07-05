@@ -4,7 +4,8 @@
 
 
 /**
- * print_char - function that print a char
+ * print_c - function that print a char
+ * @c: operator
  * Return: void
  */
 
@@ -14,7 +15,8 @@ void print_c(va_list c)
 }
 
 /**
- * print_integer - function that prints an integer
+ * print_i - function that prints an integer
+ * @i: operator
  * Return: void
  */
 
@@ -24,7 +26,8 @@ void print_c(va_list c)
 }
 
 /**
- * print_float - function that prints float
+ * print_f - function that prints float
+ * @f: operator
  * Return: void
  */
 
@@ -34,7 +37,8 @@ void print_f(va_list f)
 }
 
 /**
- * print_string - function that prints a string
+ * print_s - function that prints a string
+ * @s: operator and pointer
  * Return: void
  */
 
@@ -42,6 +46,7 @@ void print_s(va_list s)
 {
 
 	char *string = va_arg(s, char*);
+
 	if (string != NULL)
 	{
 
@@ -52,8 +57,7 @@ void print_s(va_list s)
 
 /**
  * print_all - function that prints anything
- * @n: operator
- * @separator: pointer and operator
+ * @format: constant
  * Return: void
  */
 
