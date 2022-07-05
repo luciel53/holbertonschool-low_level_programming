@@ -47,12 +47,12 @@ void print_s(va_list s)
 
 	char *string = va_arg(s, char*);
 
-	if (string != NULL)
+	if (!string)
 	{
-
-		printf("%s", string);
+		string = ("nil");
 	}
-	string = ("nil");
+	printf("%s", string);
+
 }
 
 /**
@@ -93,10 +93,8 @@ void print_all(const char * const format, ...)
 				}
 			j++;
 			}
-		i++;
-
+			i++;
 		}
-
-
 	va_end(list);
+	printf("\n");
 }
