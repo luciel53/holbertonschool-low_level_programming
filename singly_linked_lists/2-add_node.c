@@ -14,17 +14,19 @@ list_t *add_node(list_t **head, const char *str)
 {
 		char *copy;
 		list_t *new_node;
-		int i = 0;
-		int length = 0;
+		int length2 = 0;
+		int length1 = 0;
 
 		/* copy of str */
 		copy = strdup(str);
 
 		while (*str)
 		{
-			i++;
+			length2++;
 			str++;
 		}
+
+		length1 = length2;
 
 		if (copy == NULL)
 			return (NULL);
@@ -36,9 +38,9 @@ list_t *add_node(list_t **head, const char *str)
 			return (NULL);
 
 		new_node->str = copy;
-		new_node->len = length;
+		new_node->len = length1;
 		new_node->next = *head;
 		*head = new_node;
 
-return (new_node);
+return (*head);
 }
