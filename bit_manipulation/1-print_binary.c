@@ -10,13 +10,9 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned int i;
+	int i = n % 2;
+		if (n > 1)
+			print_binary(n / 2);
 
-	for (i = (1 << 10) ; i > 0 ; i = (i >> 1))
-	{
-		if (n & i)
-				_putchar('1');
-			else
-				_putchar('0');
-	}
+		_putchar(i + '0');
 }
