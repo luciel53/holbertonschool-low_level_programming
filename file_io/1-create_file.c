@@ -31,7 +31,7 @@ int create_file(const char *filename, char *text_content)
 			size++;
 		}
 		w = write(fd, text_content, size);
-		if (w == -1)
+		if (w != size)
 			return (-1);
 	}
 	close(fd);
