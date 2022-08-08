@@ -52,10 +52,10 @@ cd into the Betty directory
 * emacs or vi a new file called betty, and copy the script below:
 
     #!/bin/bash
-    # Simply a wrapper script to keep you from having to use betty-style
-    # and betty-doc separately on every item.
-    # Originally by Tim Britton (@wintermanc3r), multiargument added by
-    # Larry Madeo (@hillmonkey)
+    #Simply a wrapper script to keep you from having to use betty-style
+    #and betty-doc separately on every item.
+    #Originally by Tim Britton (@wintermanc3r), multiargument added by
+    #Larry Madeo (@hillmonkey)
 
     BIN_PATH="/usr/local/bin"
     BETTY_STYLE="betty-style"
