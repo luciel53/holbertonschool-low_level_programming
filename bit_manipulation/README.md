@@ -7,7 +7,7 @@
 
 ## Tasks
 
-### 0
+### 0-binary_to_uint
 
 Write a function that converts a binary number to an `unsigned int`.
 
@@ -53,7 +53,7 @@ $ amonkeyprogrammer@ubuntu:~/0x14. Binary$ ./a
 $ amonkeyprogrammer@ubuntu:~/0x14. Binary$
 ```
 
-### 1
+### 1-print_binary
 
 Write a function that prints the binary representation of a number.
 
@@ -97,7 +97,7 @@ $ amonkeyprogrammer@ubuntu:~/0x14. Binary$ ./b
 $ amonkeyprogrammer@ubuntu:~/0x14. Binary$
 ```
 
-### 10
+### 2-get_bit
 
 Write a function that returns the value of a bit at a given index.
 
@@ -135,7 +135,7 @@ $ amonkeyprogrammer@ubuntu:~/0x14. Binary$ ./c
 $ amonkeyprogrammer@ubuntu:~/0x14. Binary$
 ```
 
-### 11
+### 3-set_bit
 
 Write a function that sets the value of a bit to 1 at a given index.
 
@@ -176,7 +176,7 @@ $ amonkeyprogrammer@ubuntu:~/0x14. Binary$ ./d
 $ amonkeyprogrammer@ubuntu:~/0x14. Binary$
 ```
 
-### 100
+### 4-clear_bit
 
 Write a function that sets the value of a bit to 0 at a given index.
 
@@ -217,7 +217,7 @@ $ amonkeyprogrammer@ubuntu:~/0x14. Binary$ ./e
 $ amonkeyprogrammer@ubuntu:~/0x14. Binary$
 ```
 
-### 101
+### 5-flip_bits
 
 Write a function that returns the number of bits you would need to flip to get from one number to another.
 
