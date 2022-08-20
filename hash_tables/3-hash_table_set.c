@@ -15,7 +15,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *value_copy;
 
 	/* if ht, key and *key are empty, return 0' */
-	if (!ht || !key || *key == '\0')
+	if (!ht || !key || *key == '\0' || !value)
 		return (0);
 
 	/* make a copy of value */
