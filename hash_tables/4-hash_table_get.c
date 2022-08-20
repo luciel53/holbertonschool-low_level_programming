@@ -19,10 +19,10 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 
 	while (temp)
-		if (strcmp(key, temp->key) == 0)
+		if (strcmp(temp->key, key) == 0)
 		{
 			return (temp->value);
-			temp = temp->next;
+		temp = temp->next;
 		}
 	return (NULL);
 }
