@@ -30,7 +30,7 @@ int binary_search(int *array, size_t size, int value)
 		if (x == array[mid])
 			return (mid);
 
-		printf("%d\n ", array[i]);
+		printf("%d\n", array[i]);
 
 		if (value > array[mid])
 			high = mid + 1;
